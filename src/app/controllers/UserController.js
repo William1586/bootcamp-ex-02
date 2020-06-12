@@ -19,7 +19,7 @@ class UserController {
   }
 
   async uptade(req, res) {
-    return res.json({ ok: 'true' });
+    return res.json({ ok: req.userId });
   }
 }
 
